@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/day23_code/day23_code.iml" filepath="$PROJECT_DIR$/day23_code/day23_code.iml" />
       <module fileurl="file://$PROJECT_DIR$/day24_code/day24_code.iml" filepath="$PROJECT_DIR$/day24_code/day24_code.iml" />
       <module fileurl="file://$PROJECT_DIR$/day25_code/day25_code.iml" filepath="$PROJECT_DIR$/day25_code/day25_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day28_code/day28_code.iml" filepath="$PROJECT_DIR$/day28_code/day28_code.iml" />
       <module fileurl="file://$PROJECT_DIR$/itcast_test/itcast_test.iml" filepath="$PROJECT_DIR$/itcast_test/itcast_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
     </modules>
