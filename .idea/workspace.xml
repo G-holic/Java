@@ -11,35 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25fa81b4-6522-4a43-b8b4-86ecec249697" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jdbclibs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28_code/config/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28_code/day28_code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/bean/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/bean/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/dao/BaseDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/dao/DepartmentDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/dao/DepartmentDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/dao/EmployeeDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/dao/EmployeeDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/jdbc/TestDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/jdbc/TestInsert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/jdbc/TestJdbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/jdbc/TestSelect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/jdbc/TestUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/pool/TestDruid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/problem/Problem1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/problem/Problem2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/problem/Problem3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/problem/Problem4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/problem/Problem5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/problem/Problem6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/test/DepartmentDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/test/EmployeeDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/utils/JDBCTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbclibs/druid-1.1.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbclibs/mysql-connector-java-8.0.19.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -257,8 +228,16 @@
       <workItem from="1664193651078" duration="14259000" />
       <workItem from="1664330905763" duration="196220000" />
       <workItem from="1666576906943" duration="6883000" />
-      <workItem from="1666599319078" duration="207915000" />
+      <workItem from="1666599319078" duration="208207000" />
     </task>
+    <task id="LOCAL-00001" summary="第28天jdbc">
+      <created>1668238562899</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668238562899</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +253,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第28天jdbc" />
+    <option name="LAST_COMMIT_MESSAGE" value="第28天jdbc" />
   </component>
   <component name="WindowStateProjectService">
     <state x="635" y="272" key="#Customize_Data_Views" timestamp="1667202845931">
@@ -330,10 +313,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="328" y="214" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1665834162125" />
-    <state x="566" y="149" key="CommitChangelistDialog2" timestamp="1668238544347">
+    <state x="566" y="149" key="CommitChangelistDialog2" timestamp="1668238559873">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="566" y="149" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1668238544347" />
+    <state x="566" y="149" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1668238559873" />
     <state x="594" y="278" key="FileChooserDialogImpl" timestamp="1668224837652">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
