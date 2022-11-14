@@ -10,8 +10,28 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25fa81b4-6522-4a43-b8b4-86ecec249697" name="Default Changelist" comment="">
+    <list default="true" id="25fa81b4-6522-4a43-b8b4-86ecec249697" name="Default Changelist" comment="第28天jdbc">
+      <change afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/utils/JDBCTools2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day29_code/config/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day29_code/day29_code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day29_code/src/cn/itcast/bean/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day29_code/src/cn/itcast/bean/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day29_code/src/cn/itcast/dao/BaseDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day29_code/src/cn/itcast/dao/DepartmentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day29_code/src/cn/itcast/dao/DepartmentDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day29_code/src/cn/itcast/dao/EmployeeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day29_code/src/cn/itcast/dao/EmployeeDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day29_code/src/cn/itcast/test/DepartmentDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day29_code/src/cn/itcast/test/EmployeeDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day29_code/src/cn/itcast/utils/JDBCToolsFinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbclibs/commons-dbutils-1.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day28_code/day28_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day28_code/day28_code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day28_code/src/cn/itcast/dao/BaseDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/dao/BaseDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day28_code/src/cn/itcast/test/DepartmentDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day28_code/src/cn/itcast/test/DepartmentDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day28_code/cn/itcast/dao/BaseDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day28_code/cn/itcast/dao/BaseDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day28_code/cn/itcast/test/DepartmentDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day28_code/cn/itcast/test/DepartmentDAOTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +95,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jdbclibs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day29_code/src/cn/itcast/test" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -90,11 +110,11 @@
       <recent name="cn.itcast" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaSe\day29_code\src\cn\itcast\test" />
       <recent name="D:\JavaSe\jdbclibs" />
-      <recent name="D:\JavaSe\day19_code\src\cn\itcast\pattern" />
-      <recent name="D:\JavaSe\day17_code" />
-      <recent name="D:\JavaSe\day16_code\src\cn\itcast\safe2" />
-      <recent name="D:\JavaSe\day15_code\src\cn\itcast\inner" />
+      <recent name="D:\JavaSe\day29_code\src\cn\itcast\dao" />
+      <recent name="D:\JavaSe\day29_code\src\cn\itcast\bean" />
+      <recent name="D:\JavaSe\day29_code" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.itcast.tcp.demo3" />
@@ -108,8 +128,8 @@
       <recent name="D:\JavaSe\day14_code\src\cn\itcast\exer\exer4" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeDAOTest.test04">
-    <configuration name="DepartmentDAOTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DepartmentDAOTest.test9">
+    <configuration name="DepartmentDAOTest.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day28_code" />
       <extension name="coverage">
         <pattern>
@@ -119,7 +139,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.itcast.test" />
       <option name="MAIN_CLASS_NAME" value="cn.itcast.test.DepartmentDAOTest" />
-      <option name="METHOD_NAME" value="test02" />
+      <option name="METHOD_NAME" value="test05" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepartmentDAOTest.test9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day29_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.test.DepartmentDAOTest" />
+      <option name="METHOD_NAME" value="test9" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,22 +193,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeDAOTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day28_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.test.EmployeeDAOTest" />
-      <option name="METHOD_NAME" value="test03" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EmployeeDAOTest.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day28_code" />
       <extension name="coverage">
@@ -190,19 +210,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DepartmentDAOTest.test02" />
       <item itemvalue="JUnit.EmployeeDAOTest.test01" />
-      <item itemvalue="JUnit.EmployeeDAOTest.test03" />
       <item itemvalue="JUnit.EmployeeDAOTest.test02" />
       <item itemvalue="JUnit.EmployeeDAOTest.test04" />
+      <item itemvalue="JUnit.DepartmentDAOTest.test05" />
+      <item itemvalue="JUnit.DepartmentDAOTest.test9" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DepartmentDAOTest.test9" />
+        <item itemvalue="JUnit.DepartmentDAOTest.test05" />
         <item itemvalue="JUnit.EmployeeDAOTest.test04" />
         <item itemvalue="JUnit.EmployeeDAOTest.test02" />
         <item itemvalue="JUnit.EmployeeDAOTest.test01" />
-        <item itemvalue="JUnit.EmployeeDAOTest.test03" />
-        <item itemvalue="JUnit.DepartmentDAOTest.test02" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +248,7 @@
       <workItem from="1664193651078" duration="14259000" />
       <workItem from="1664330905763" duration="196220000" />
       <workItem from="1666576906943" duration="6883000" />
-      <workItem from="1666599319078" duration="208207000" />
+      <workItem from="1666599319078" duration="214088000" />
     </task>
     <task id="LOCAL-00001" summary="第28天jdbc">
       <created>1668238562899</created>
@@ -237,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668238562899</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="第28天jdbc">
+      <created>1668238650429</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668238650429</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,51 +331,51 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="286" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1667377796295" />
-    <state x="675" y="360" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1668157935888">
+    <state x="675" y="360" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1668404909401">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="675" y="347" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1666591715791" />
-    <state x="675" y="360" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1668157935888" />
+    <state x="675" y="360" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1668404909401" />
     <state x="328" y="214" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1665834162125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="328" y="214" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1665834162125" />
-    <state x="566" y="149" key="CommitChangelistDialog2" timestamp="1668238649580">
+    <state x="566" y="149" key="CommitChangelistDialog2" timestamp="1668391477140">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="566" y="149" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1668238649580" />
-    <state x="594" y="278" key="FileChooserDialogImpl" timestamp="1668224837652">
+    <state x="566" y="149" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1668391477140" />
+    <state x="594" y="278" key="FileChooserDialogImpl" timestamp="1668405586519">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="594" y="268" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1665833529703" />
-    <state x="594" y="278" key="FileChooserDialogImpl/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1668224837652" />
-    <state width="1877" height="249" key="GridCell.Tab.0.bottom" timestamp="1668238544390">
+    <state x="594" y="278" key="FileChooserDialogImpl/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1668405586519" />
+    <state width="1877" height="304" key="GridCell.Tab.0.bottom" timestamp="1668407258143">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="320" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1665883724611" />
     <state width="1877" height="253" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1666606603429" />
-    <state width="1877" height="249" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1668238544390" />
+    <state width="1877" height="304" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1668407258143" />
     <state width="1877" height="365" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1665480544081" />
-    <state width="1877" height="249" key="GridCell.Tab.0.center" timestamp="1668238544390">
+    <state width="1877" height="304" key="GridCell.Tab.0.center" timestamp="1668407258143">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="320" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1665883724611" />
     <state width="1877" height="253" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1666606603429" />
-    <state width="1877" height="249" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1668238544390" />
+    <state width="1877" height="304" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1668407258143" />
     <state width="1877" height="365" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1665480544080" />
-    <state width="1877" height="249" key="GridCell.Tab.0.left" timestamp="1668238544390">
+    <state width="1877" height="304" key="GridCell.Tab.0.left" timestamp="1668407258143">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="320" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1665883724611" />
     <state width="1877" height="253" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1666606603428" />
-    <state width="1877" height="249" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1668238544390" />
+    <state width="1877" height="304" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1668407258143" />
     <state width="1877" height="365" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1665480544080" />
-    <state width="1877" height="249" key="GridCell.Tab.0.right" timestamp="1668238544390">
+    <state width="1877" height="304" key="GridCell.Tab.0.right" timestamp="1668407258143">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="320" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1665883724611" />
     <state width="1877" height="253" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1666606603429" />
-    <state width="1877" height="249" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1668238544390" />
+    <state width="1877" height="304" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1668407258143" />
     <state width="1877" height="365" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1665480544080" />
     <state width="1877" height="295" key="GridCell.Tab.1.bottom" timestamp="1667987824169">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -386,11 +413,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="774" y="474" key="ReplaceDuplicatesPrompt/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1666861447549" />
-    <state x="425" y="173" key="SettingsEditor" timestamp="1668224849615">
+    <state x="425" y="173" key="SettingsEditor" timestamp="1668405592223">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="425" y="167" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1666591721922" />
-    <state x="425" y="173" key="SettingsEditor/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1668224849615" />
+    <state x="425" y="173" key="SettingsEditor/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1668405592223" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1662086547072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -417,11 +444,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="600" height="424" key="javadoc.popup/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1666076346061" />
-    <state x="550" y="165" key="new project wizard" timestamp="1668157432929">
+    <state x="550" y="165" key="new project wizard" timestamp="1668404714203">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="550" y="159" key="new project wizard/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1665731246688" />
-    <state x="550" y="165" key="new project wizard/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1668157432929" />
+    <state x="550" y="165" key="new project wizard/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1668404714203" />
     <state x="477" y="241" width="672" height="705" key="search.everywhere.popup" timestamp="1667196611751">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

@@ -1,6 +1,7 @@
 package cn.itcast.dao;
 
 import cn.itcast.utils.JDBCTools;
+import cn.itcast.utils.JDBCTools2;
 
 import java.lang.reflect.Field;
 import java.sql.*;
@@ -14,7 +15,8 @@ public abstract class BaseDAOImpl {
     //如果sql中有5个?，那么调用这个方法时，要给args传入对应的5个实参
     protected int update(String sql, Object... args) throws SQLException {
         // 获取连接
-        Connection conn = JDBCTools.getConnection();
+//        Connection conn = JDBCTools.getConnection();
+        Connection conn = JDBCTools2.getConnection();
 
         PreparedStatement pst = conn.prepareStatement(sql);
         // 设置?的值
@@ -28,14 +30,16 @@ public abstract class BaseDAOImpl {
         int len = pst.executeUpdate();
 
         // 释放连接
-        JDBCTools.freeConnection(conn);
+//        JDBCTools.freeConnection(conn); // 这里不关闭连接，交给事物提交或回滚之后再去关闭连接
+
         return len;
     }
 
     //查询多个对象的通用方法
     protected <T> List<T> getList(Class<T> clazz, String sql, Object... args) throws SQLException, IllegalAccessException, InstantiationException, NoSuchFieldException {
         // 获取连接
-        Connection conn = JDBCTools.getConnection();
+//        Connection conn = JDBCTools.getConnection();
+        Connection conn = JDBCTools2.getConnection();
 
         PreparedStatement pst = conn.prepareStatement(sql);
 
@@ -67,7 +71,8 @@ public abstract class BaseDAOImpl {
         }
 
         // 释放连接
-        JDBCTools.freeConnection(conn);
+//        JDBCTools.freeConnection(conn);
+//        JDBCTools2.freeConnection();
 
         return list;
     }
